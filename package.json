@@ -1,0 +1,17 @@
+{
+  "name": "texas_holdem_ui",
+  "version": "1.0.0",
+  "description": "A Flutter web application for a Texas Hold'em poker game.",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "flutter build web",
+    "start": "node server.mjs",
+    "pm:deploy:production:setup": "pm2 deploy production setup",
+    "pm:deploy:production": "pm2 deploy production"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
