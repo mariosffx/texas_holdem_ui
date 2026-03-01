@@ -1,6 +1,6 @@
 {
   "name": "texas_holdem_ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Flutter web application for a Texas Hold'em poker game.",
   "main": "server.mjs",
   "type": "module",
